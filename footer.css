@@ -1,0 +1,62 @@
+@font-face {
+    font-family: myFont;
+    src: url(./wallpaperssss/hemi.ttf.otf);
+}
+footer{
+    background-color: black;
+    display: flex;
+    /* position: relative; */
+    padding: 40px 25px;
+    justify-content: space-between;
+
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: myFont;
+    display: flex;
+    align-items: end;
+    height: 100vh;  
+}
+#left{
+    display: flex;
+    width: 60%;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 2px;
+}
+h5{
+    color: grey;
+    margin-top: 0%;
+}
+#right{
+    display: flex;
+    width: 45%;
+    border-left: 2px solid grey;
+}
+ul{
+    list-style-type: none
+
+}
+li{
+    color: white;
+}
+#book{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    padding: 0%;
+    /* background-color: grey; */
+}
+#face{
+    position: relative;
+}
+#face:hover #book{
+    display: block;
+    
+}
